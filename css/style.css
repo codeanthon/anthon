@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --main: rgba(2, 2, 2, 0.858);
+    --primary: rgb(161, 149, 79);
+    --secondary: white;
+}
+
+/* styling header  */
+#head{
+    border: 1pc goldenrod solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main);
+    color: var(--primary);
+    padding-right: 15px;
+}
+#head img{
+    width: 170%;
+    height: 18vh;
+}
+.list ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding-top: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: goldenrod;
+}
+/* styling header  done*/
+
+/* styling banner  */
+#banner{
+    background-image: url(/images/1593248774177.jpg);
+    height: 60vh;
+}
+.abut{
+    display: flex;
+    padding-top: 20%;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    border: 2px solid var(--main);
+    height: 205vh;
+    background-color: var(--main);
+}
+.abut div:hover{
+    transform: translateY(0.5%);
+}
+.abut div{
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+.but{
+    border: 0.3pc black solid;
+    background-color: gray;
+    border-radius: 2rem;
+    border-left-color: goldenrod;
+    border-bottom-color: goldenrod;
+    border-right-color: darkcyan;
+    border-top-color: darkcyan;
+}
+.but p{
+    font-size: 3rem;
+    color: var(--secondary);
+    font-weight: 3rem;
+    text-transform: capitalize;
+    border: none solid black;
+    background-color: black;
+    border-radius: 1.5rem;
+    font-family: 'Vina Sans', sans-serif;
+}
+.but button{
+    font-size: 3rem;
+    color: goldenrod;
+    text-transform: uppercase;
+    background-color: var(--main);
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.but img{
+    width: 100%;
+    height: 75%;
+    border-radius: 2rem;
+}
+
+/* styling banner done */
+
+/* styling pickup */
+#myForm{
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1pc solid var(--main);
+    background-image: url(/images/109.jpg);
+}
+#myForm button{
+    width: 32%;
+    margin: 0 28%;
+    height: 8vh;
+    border-radius: 1rem;
+    border: none;
+    background-color: darkgreen;
+    color: var(--secondary);
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#myForm button:hover{
+    width: 30%;
+    margin: 0 28%;
+    height: 8vh;
+    border-radius: 1rem;
+    border: none;
+    background-color: darkslategrey;
+    color: var(--primary);
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    transform: translateY(-0.8px)
+}
+.formdetails{
+    border: 2px solid black;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    margin: 30px;
+    border-radius: 1rem;
+    background-color: var(--main);
+    color: var(--primary);
+}
+.formdetails h2{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 0 5%;
+}
+.formdetails label{
+    font-size: 2.5rem;
+    margin-bottom: 0.5%;
+}
+.formdetails input[type="text"],
+.formdetails input[type="date"]{
+    width: 70%;
+    height: 8vh;
+    font-size: 25px;
+    text-align: center;
+}
+.formdetails textarea{
+    width: 70%;
+    height: 8vh;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.fmdet div{
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+}
+.fmdet label{
+    display: block;
+}
+.fmdet input{
+    width: 100%;
+    height: 5vh;
+    border-radius: 0.5rem;
+}
+.fmdet textarea{
+    width: 70%;
+    height: 35vh;
+}
+.fmdet ::placeholder{
+    text-align: center;
+    color: darkcyan;
+    font-size: 1.5rem;
+}
+/* styling pickup done */
+
+/* styling footer */
+#footer{
+    border: 1pc goldenrod solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main);
+    color: var(--primary);
+    padding-right: 30px;
+    
+}
+#footer img{
+    width: 170%;
+    height: 18vh;
+}
+.lst h5{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.lst ul{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.lst a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+.atag li{
+    color: var(--secondary);
+    font-size: 2rem;
+}
+
+
+/* styling footer done */
